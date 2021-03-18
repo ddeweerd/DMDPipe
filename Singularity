@@ -38,6 +38,7 @@ pip install numpy
 pip install pandas 
 pip install scipy
 pip install joblib
+pip install networkx
 
 R -e "install.packages('BiocManager', repos = 'http://cran.us.r-project.org')"
 
