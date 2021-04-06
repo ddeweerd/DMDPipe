@@ -67,7 +67,8 @@ R -e "BiocManager::install(c('AnnotationDbi', \
                              'ggdendro', \
                              'ggrepel', \
                              'clusterProfiler', \
-                             'GEOmetadb'))"
+                             'GEOmetadb', \
+                             'argparser'))"
 
 R -e "devtools::install_git(url = 'https://gitlab.com/Gustafsson-lab/MODifieR.git')"
 
